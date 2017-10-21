@@ -12,6 +12,8 @@
 		045BCDBE1F9B0342009D2244 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045BCDBC1F9B0342009D2244 /* Main.storyboard */; };
 		045BCDC01F9B0342009D2244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045BCDBF1F9B0342009D2244 /* Assets.xcassets */; };
 		045BCDC31F9B0342009D2244 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045BCDC11F9B0342009D2244 /* LaunchScreen.storyboard */; };
+		045BCDCB1F9BAAA7009D2244 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045BCDCA1F9BAAA7009D2244 /* Game.swift */; };
+		045BCDCD1F9BB7A0009D2244 /* ListOfWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045BCDCC1F9BB7A0009D2244 /* ListOfWords.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		045BCDBF1F9B0342009D2244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		045BCDC21F9B0342009D2244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		045BCDC41F9B0343009D2244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045BCDCA1F9BAAA7009D2244 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		045BCDCC1F9BB7A0009D2244 /* ListOfWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfWords.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				045BCDB81F9B0342009D2244 /* AppDelegate.swift */,
 				045BCDBA1F9B0342009D2244 /* ViewController.swift */,
+				045BCDCA1F9BAAA7009D2244 /* Game.swift */,
+				045BCDCC1F9BB7A0009D2244 /* ListOfWords.swift */,
 				045BCDBC1F9B0342009D2244 /* Main.storyboard */,
 				045BCDBF1F9B0342009D2244 /* Assets.xcassets */,
 				045BCDC11F9B0342009D2244 /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				045BCDBB1F9B0342009D2244 /* ViewController.swift in Sources */,
+				045BCDCD1F9BB7A0009D2244 /* ListOfWords.swift in Sources */,
+				045BCDCB1F9BAAA7009D2244 /* Game.swift in Sources */,
 				045BCDB91F9B0342009D2244 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
